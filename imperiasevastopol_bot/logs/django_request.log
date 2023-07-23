@@ -1,0 +1,836 @@
+ERROR 2023-04-05 21:05:17,998 log 108 139828565837376 Internal Server Error: /cars/1097475252
+Traceback (most recent call last):
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/mnt/d/Python/CarsStatProject/carsstatproject/carsstat/models.py", line 23, in __str__
+    return engines['self.type']
+KeyError: 'self.type'
+WARNING 2023-04-05 21:05:21,947 log 108 139828565837376 Not Found: /favicon.ico
+ERROR 2023-04-05 21:21:08,937 log 154 140332612060736 Internal Server Error: /cars/1116623262
+Traceback (most recent call last):
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/mnt/d/Python/CarsStatProject/carsstatproject/carsstat/models.py", line 121, in __str__
+    return gears[self.type]
+UnboundLocalError: local variable 'gears' referenced before assignment
+ERROR 2023-04-05 21:21:14,390 log 154 140332612060736 Internal Server Error: /cars/1116623262
+Traceback (most recent call last):
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/mnt/d/Python/CarsStatProject/carsstatproject/carsstat/models.py", line 121, in __str__
+    return gears[self.type]
+UnboundLocalError: local variable 'gears' referenced before assignment
+WARNING 2023-04-06 20:07:55,952 log 3732 10580 Not Found: /favicon.ico
+ERROR 2023-04-06 20:33:25,959 log 1752 3668 Internal Server Error: /admin/carsstat/news/1/change/
+Traceback (most recent call last):
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: carsstat_news.on_top
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\options.py", line 1773, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\contrib\admin\options.py", line 864, in get_object
+    return queryset.get(**{field.name: object_id})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\models\query.py", line 646, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\models\query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: carsstat_news.on_top
+WARNING 2023-04-17 19:18:40,126 log 2624 9336 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-17 19:18:40,194 log 2624 6684 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-17 19:18:40,306 log 2624 9336 Not Found: /static/css/images/bg.jpg
+WARNING 2023-04-17 19:18:40,320 log 2624 3164 Not Found: /static/css/images/header-bg.gif
+WARNING 2023-04-17 19:18:40,327 log 2624 9416 Not Found: /static/css/images/shell-bg.png
+WARNING 2023-04-17 19:18:40,464 log 2624 9416 Not Found: /static/css/images/search.gif
+WARNING 2023-04-17 19:18:40,471 log 2624 3164 Not Found: /static/css/images/dot.png
+WARNING 2023-04-17 19:18:40,482 log 2624 9336 Not Found: /static/css/images/h2-small.gif
+WARNING 2023-04-17 19:18:40,487 log 2624 6684 Not Found: /static/css/images/h2-long.gif
+WARNING 2023-04-17 19:18:41,656 log 2624 6684 Not Found: /favicon.ico
+WARNING 2023-04-22 12:02:13,158 log 11188 7236 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 12:02:13,161 log 11188 10820 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 12:02:13,581 log 11188 9152 Not Found: /static/css/images/bg.jpg
+WARNING 2023-04-22 12:02:13,688 log 11188 12816 Not Found: /static/css/images/shell-bg.png
+WARNING 2023-04-22 12:02:14,023 log 11188 9152 Not Found: /static/css/images/header-bg.gif
+WARNING 2023-04-22 12:02:14,342 log 11188 12816 Not Found: /static/css/images/search.gif
+WARNING 2023-04-22 12:02:14,346 log 11188 10820 Not Found: /static/css/images/dot.png
+WARNING 2023-04-22 12:02:14,451 log 11188 7236 Not Found: /static/css/images/h2-small.gif
+WARNING 2023-04-22 12:02:14,461 log 11188 10820 Not Found: /static/css/images/h2-long.gif
+WARNING 2023-04-22 12:02:19,656 log 11188 11136 Not Found: /favicon.ico
+WARNING 2023-04-22 12:02:51,849 log 11188 9440 Not Found: /static/admin/css/base.css
+WARNING 2023-04-22 12:02:51,853 log 11188 2876 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-04-22 12:02:51,894 log 11188 9440 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-04-22 12:02:51,949 log 11188 2876 Not Found: /static/admin/css/login.css
+WARNING 2023-04-22 12:02:51,980 log 11188 9440 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-04-22 12:02:51,980 log 11188 12012 Not Found: /static/admin/css/responsive.css
+WARNING 2023-04-22 12:02:56,416 log 11188 12012 Not Found: /static/admin/css/base.css
+WARNING 2023-04-22 12:02:56,422 log 11188 9440 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-04-22 12:02:56,430 log 11188 2876 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-04-22 12:02:56,435 log 11188 13196 Not Found: /static/admin/css/login.css
+WARNING 2023-04-22 12:02:56,525 log 11188 10432 Not Found: /static/admin/css/responsive.css
+WARNING 2023-04-22 12:02:56,574 log 11188 12752 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-04-22 12:03:14,482 log 11188 11972 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-04-22 12:03:14,485 log 11188 6592 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-04-22 12:03:14,611 log 11188 8972 Not Found: /static/admin/css/responsive.css
+WARNING 2023-04-22 12:03:14,729 log 11188 5584 Not Found: /static/admin/css/base.css
+WARNING 2023-04-22 12:03:14,768 log 11188 3096 Not Found: /static/admin/css/login.css
+WARNING 2023-04-22 12:03:14,780 log 11188 5072 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-04-22 12:03:19,429 log 11188 7460 Not Found: /static/admin/css/base.css
+WARNING 2023-04-22 12:03:19,466 log 11188 6580 Not Found: /static/admin/css/login.css
+WARNING 2023-04-22 12:03:19,596 log 11188 9480 Not Found: /static/admin/css/responsive.css
+WARNING 2023-04-22 12:03:19,628 log 11188 12080 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-04-22 12:03:19,692 log 11188 10728 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-04-22 12:03:19,710 log 11188 8900 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-04-22 12:03:23,142 log 11188 8900 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-04-22 12:03:23,147 log 11188 10728 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-04-22 12:03:23,152 log 11188 12080 Not Found: /static/admin/css/responsive.css
+WARNING 2023-04-22 12:03:23,168 log 11188 6580 Not Found: /static/admin/css/base.css
+WARNING 2023-04-22 12:03:23,175 log 11188 7460 Not Found: /static/admin/css/login.css
+WARNING 2023-04-22 12:03:23,431 log 11188 6604 Not Found: /static/admin/js/nav_sidebar.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        WARNING 2023-04-22 16:50:12,449 log 8684 7448 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:50:12,455 log 8684 1116 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:50:13,905 log 8684 7448 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:50:13,921 log 8684 1116 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:50:13,959 log 8684 9068 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:50:15,496 log 8684 7448 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:50:15,510 log 8684 1116 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:50:16,262 log 8684 7448 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:50:16,624 log 8684 7448 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:50:16,639 log 8684 7448 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:51:07,236 log 8684 7448 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:51:07,244 log 8684 9068 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:51:07,318 log 8684 7448 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:51:07,326 log 8684 1116 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:51:07,396 log 8684 9068 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:51:07,406 log 8684 7448 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:51:07,437 log 8684 7448 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:51:07,455 log 8684 7448 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:51:07,484 log 8684 1116 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:51:07,525 log 8684 7448 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:53:00,187 log 2560 5924 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:53:00,279 log 2560 7004 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:53:00,349 log 2560 7296 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:53:00,359 log 2560 7004 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:53:00,624 log 2560 7060 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:53:06,640 log 2560 7296 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:53:06,660 log 2560 7004 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:53:06,670 log 2560 7060 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:53:06,721 log 2560 7296 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:53:06,751 log 2560 5924 Not Found: /static/js/jquery-1.3.2.min.js
+WARNING 2023-04-22 16:53:06,791 log 2560 7060 Not Found: /static/css/style.css
+WARNING 2023-04-22 16:53:06,791 log 2560 7004 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 16:53:06,832 log 2560 7296 Not Found: /static/js/jquery-func.js
+WARNING 2023-04-22 16:53:06,914 log 2560 7060 Not Found: /media/photos/2023/03/28/car4.jpg
+WARNING 2023-04-22 16:53:06,914 log 2560 7004 Not Found: /media/photos/2023/04/06/sls.jpg
+WARNING 2023-04-22 17:00:09,321 log 5892 7252 Not Found: /favicon.ico
+ERROR 2023-04-26 21:27:29,626 log 3180 10812 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\CarsStatProject\carsstatproject\carsstat\templatetags\cars_cheaper_than_usual.py", line 11, in cars_cheaper_than_usual
+    cars = random.sample(list(cars), cnt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\o\AppData\Local\Programs\Python\Python311\Lib\random.py", line 453, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+WARNING 2023-04-26 21:27:37,900 log 3180 10472 Not Found: /favicon.ico
+WARNING 2023-04-26 21:28:22,398 log 3180 4576 Not Found: /media/photos/2023/04/24/car2.jpg
+WARNING 2023-04-26 21:28:29,773 log 3180 10476 Not Found: /media/photos/2023/04/24/car2.jpg
+ERROR 2023-04-26 21:53:35,945 log 1978 140685032228416 Internal Server Error: /
+Traceback (most recent call last):
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/CarsStatProject/linux/lib/python3.10/site-packages/django/template/library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/mnt/d/Python/CarsStatProject/carsstatproject/carsstat/templatetags/cars_cheaper_than_usual.py", line 11, in cars_cheaper_than_usual
+    cars = random.sample(list(cars), cnt)
+  File "/usr/lib/python3.10/random.py", line 482, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+WARNING 2023-04-26 21:53:52,494 log 1978 140685023774272 Not Found: /media/photos/2023/04/24/car2.jpg
+WARNING 2023-04-26 21:53:57,126 log 1978 140685032228416 Not Found: /media/photos/2023/04/24/car2.jpg
+WARNING 2023-04-30 21:03:27,450 log 517 140379922826816 Not Found: /menu_item/motocikly
+WARNING 2023-06-19 21:23:54,748 log 73 139885608371776 Not Found: /admin
+WARNING 2023-06-19 21:23:57,578 log 73 139885608371776 Not Found: /favicon.ico
+WARNING 2023-06-19 21:33:06,293 log 1100 9100 Not Found: /admin
+WARNING 2023-06-19 21:33:38,047 log 5656 2552 Not Found: /admin
+WARNING 2023-06-19 21:33:45,452 log 5656 9256 Not Found: /admin
+WARNING 2023-06-19 21:34:13,094 log 5656 7164 Not Found: /admin
+WARNING 2023-06-19 21:35:24,364 log 2776 8312 Not Found: /admin
+WARNING 2023-06-19 21:37:20,304 log 5096 2488 Bad Request: /admin
+WARNING 2023-06-19 21:37:46,851 log 7020 4940 Not Found: /admin
+WARNING 2023-06-19 21:40:49,086 log 9780 9260 Not Found: /admin
+ERROR 2023-06-20 20:00:31,001 log 311 139784391296576 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1983, in changelist_view
+    response = self.response_action(
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/bot/admin.py", line 38, in broadcast
+    utils.send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+AttributeError: module 'bot.utils' has no attribute 'send_message'
+ERROR 2023-06-20 20:04:48,731 log 338 140333339772480 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1983, in changelist_view
+    response = self.response_action(
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/bot/admin.py", line 38, in broadcast
+    utils.send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+AttributeError: module 'bot.utils' has no attribute 'send_message'
+ERROR 2023-06-20 20:07:04,171 log 359 140501011334720 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1983, in changelist_view
+    response = self.response_action(
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/bot/admin.py", line 38, in broadcast
+    utils.send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+AttributeError: module 'bot.utils' has no attribute 'send_message'
+WARNING 2023-06-20 20:19:49,285 log 45 140653683934784 Not Found: /favicon.ico
+ERROR 2023-06-20 20:20:08,292 log 45 140653683934784 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1983, in changelist_view
+    response = self.response_action(
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/bot/admin.py", line 38, in broadcast
+    utils.send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+AttributeError: module 'bot.utils' has no attribute 'send_message'
+ERROR 2023-06-20 20:30:11,969 log 8540 7764 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 1983, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\imperiasevastopol_bot\bot\admin.py", line 38, in broadcast
+    utils.send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'bot.utils' has no attribute 'send_message'
+ERROR 2023-06-20 20:31:22,428 log 7024 1184 Internal Server Error: /adminbot/user/
+Traceback (most recent call last):
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 1983, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\venv\Lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Imperiasevastopol_bot\imperiasevastopol_bot\bot\admin.py", line 38, in broadcast
+    send_message(user_id=u.id, text=broadcast_message_text, parse_mode=telegram.ParseMode.MARKDOWN)
+                         ^^^^
+AttributeError: 'User' object has no attribute 'id'
+WARNING 2023-06-22 20:03:49,749 log 396 140657712498240 Not Found: /favicon.ico
+ERROR 2023-06-22 20:17:55,690 log 436 140713511487040 Internal Server Error: /adminbot/post/
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/db/models/options.py", line 681, in get_field
+    return self.fields_map[field_name]
+KeyError: 'get_photo'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/db/models/options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Post has no field named 'get_photo'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/template/library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/mnt/d/Python/Imperiasevastopol_bot/linux/lib/python3.10/site-packages/django/contrib/admin/utils.py", line 281, in lookup_field
+    value = attr(obj)
+  File "/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/bot/admin.py", line 76, in get_photo
+    return mark_safe(f'<img src="{obj.photo.url}" width="75">')
+AttributeError: 'Post' object has no attribute 'photo'
+WARNING 2023-06-25 15:54:43,017 log 217 140372560512576 Not Found: /favicon.ico
+WARNING 2023-06-25 20:29:55,778 log 36 140259660596800 Not Found: /favicon.ico
+WARNING 2023-06-26 14:25:47,608 log 36 139819229251136 Not Found: /favicon.ico
+WARNING 2023-06-28 20:27:03,279 log 299 140150872802880 Not Found: /favicon.ico
+WARNING 2023-06-28 20:27:14,781 log 299 140150889711168 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:27:27,082 log 299 140150881257024 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:32:39,690 log 325 140189104014912 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:32:39,695 log 325 140189095560768 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:34:26,031 log 347 139793776182848 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:34:26,033 log 347 139793757177408 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:34:26,061 log 347 139793767728704 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:35:33,849 log 360 140548392289856 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:35:34,276 log 360 140548392289856 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:35:34,298 log 360 140548299949632 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:35:34,313 log 360 140548308403776 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:40:10,246 log 396 140602283656768 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:40:10,260 log 396 140602311116352 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:40:10,264 log 396 140602275202624 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:40:10,270 log 396 140602302662208 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:40:10,285 log 396 140602292110912 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:40:42,833 log 396 140602292110912 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:40:43,674 log 396 140602292110912 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:40:43,698 log 396 140602302662208 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:40:44,020 log 396 140602302662208 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:40:44,145 log 396 140602302662208 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:49:37,634 log 420 139722091071040 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:49:37,646 log 420 139722107979328 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:49:37,648 log 420 139722099525184 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:49:37,654 log 420 139722082616896 Not Found: /images/file_0.jpg
+WARNING 2023-06-28 20:49:37,660 log 420 139722126984768 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:37,668 log 420 139722118530624 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:47,323 log 420 139722082616896 Not Found: /images/file_0.jpg
+WARNING 2023-06-28 20:49:47,381 log 420 139722118530624 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:49:47,644 log 420 139722118530624 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 20:49:47,661 log 420 139722082616896 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:47,670 log 420 139722107979328 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:49:47,728 log 420 139722126984768 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:56,653 log 420 139722118530624 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:56,900 log 420 139722107979328 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 20:49:57,064 log 420 139722126984768 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 20:49:57,221 log 420 139722099525184 Not Found: /images/file_0.jpg
+WARNING 2023-06-28 20:49:57,244 log 420 139722118530624 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 20:49:57,263 log 420 139722082616896 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:01:28,449 log 459 139934522279488 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:01:28,488 log 459 139934763517504 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:01:28,544 log 459 139934744512064 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:01:28,559 log 459 139934530733632 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 21:01:28,578 log 459 139934755063360 Not Found: /images/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:01:28,601 log 459 139934513825344 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 21:01:28,920 log 459 139934763517504 Not Found: /images/file_0.jpg
+WARNING 2023-06-28 21:01:41,673 log 459 139934513825344 Not Found: /images/images/sandra-black-b.jpg
+WARNING 2023-06-28 21:01:41,857 log 459 139934513825344 Not Found: /images/images/tehnogres.jpg
+WARNING 2023-06-28 21:01:42,254 log 459 139934755063360 Not Found: /images/4600198b7897ba539df3d9e5d4dfbf4a.jpg
+WARNING 2023-06-28 21:01:42,315 log 459 139934763517504 Not Found: /images/images/images.jpg
+WARNING 2023-06-28 21:01:42,388 log 459 139934530733632 Not Found: /images/d32ff1cd5c76b83c4b35d513b5f6521a.jpg
+WARNING 2023-06-28 21:04:28,875 log 483 140458893182528 Not Found: /images/tehnogres.jpg
+WARNING 2023-06-28 21:04:28,889 log 483 140458875225664 Not Found: /images/images.jpg
+WARNING 2023-06-28 21:04:28,902 log 483 140458516743744 Not Found: /4600198b7897ba539df3d9e5d4dfbf4a.jpg
+WARNING 2023-06-28 21:04:28,917 log 483 140458866771520 Not Found: /d32ff1cd5c76b83c4b35d513b5f6521a.jpg
+WARNING 2023-06-28 21:04:28,922 log 483 140458884728384 Not Found: /images/sandra-black-b.jpg
+WARNING 2023-06-28 21:05:59,639 log 490 140529849271872 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 21:05:59,652 log 490 140529840817728 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:05:59,660 log 490 140529832363584 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:05:59,674 log 490 140529805952576 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 21:05:59,748 log 490 140529823909440 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:10:11,852 log 518 139737845007936 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:10:11,956 log 518 139737633326656 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:10:11,969 log 518 139737624872512 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 21:10:12,020 log 518 139737855559232 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:10:12,088 log 518 139737864013376 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 21:13:21,894 log 535 140410714261056 Not Found: /images/file_10.jpg
+WARNING 2023-06-28 21:13:22,381 log 535 140410714261056 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:13:22,422 log 535 140410678347328 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/telegram_photo/AgACAgIAAx.jpg
+WARNING 2023-06-28 21:13:22,442 log 535 140410332579392 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOOZJxtDIfe8aFTPOF4MpUCwa3vghMAAjbKMRvLg-FIwIoYWbehTF8BAAMCAANzAAMvBA.jpg
+WARNING 2023-06-28 21:13:22,513 log 535 140410695255616 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAx
+WARNING 2023-06-28 21:13:22,573 log 535 140410686801472 Not Found: /images/mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAORZJxupzZ3KtSYje8pD5O242j1hdcAAljKMRvLg-FIzxYMLFqTItkBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:13:22,619 log 535 140410714261056 Not Found: /images/file_0.jpg
+WARNING 2023-06-28 21:14:02,383 log 535 140410705806912 Not Found: /images/file_10.jpg
+WARNING 2023-06-28 21:14:13,279 log 535 140410695255616 Not Found: /images/images/tehnogres.jpg
+WARNING 2023-06-28 21:14:13,287 log 535 140410686801472 Not Found: /images/4600198b7897ba539df3d9e5d4dfbf4a.jpg
+WARNING 2023-06-28 21:14:13,330 log 535 140410714261056 Not Found: /images/images/sandra-black-b.jpg
+WARNING 2023-06-28 21:14:13,369 log 535 140410705806912 Not Found: /images/images/images.jpg
+WARNING 2023-06-28 21:14:13,437 log 535 140410678347328 Not Found: /images/d32ff1cd5c76b83c4b35d513b5f6521a.jpg
+WARNING 2023-06-28 21:24:32,251 log 594 140351343887936 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOoZJx62WKjGhqJtWB5ZWOJJdEPLl0AAo7KMRvLg-FI7ljKpmBcpysBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:26:38,499 log 607 140415536596544 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:26:38,518 log 607 140415545050688 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOoZJx62WKjGhqJtWB5ZWOJJdEPLl0AAo7KMRvLg-FI7ljKpmBcpysBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:30:11,615 log 607 140415536596544 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:33:26,004 log 630 140263386973760 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:34:53,155 log 630 140263422887488 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:35:02,775 log 630 140263003260480 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOoZJx62WKjGhqJtWB5ZWOJJdEPLl0AAo7KMRvLg-FI7ljKpmBcpysBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:35:02,816 log 630 140263020168768 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:35:26,682 log 630 140263003260480 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOqZJx7VMlkxZmL-vPH2y_qz1ctRHwAAo_KMRvLg-FI4RZHuEL3a90BAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-28 21:35:26,869 log 630 140263020168768 Not Found: /mnt/d/Python/Imperiasevastopol_bot/imperiasevastopol_bot/images/AgACAgIAAxkBAAOoZJx62WKjGhqJtWB5ZWOJJdEPLl0AAo7KMRvLg-FI7ljKpmBcpysBAAMCAAN4AAMvBA.jpg
+WARNING 2023-06-29 20:50:29,844 log 838 139766741665344 Not Found: /favicon.ico
+WARNING 2023-07-02 15:39:15,101 log 11624 6268 Not Found: /favicon.ico
+WARNING 2023-07-04 15:05:00,247 log 1799 140629706212928 Not Found: /favicon.ico
+WARNING 2023-07-22 19:47:01,778 log 112 139695283439168 Not Found: /favicon.ico
