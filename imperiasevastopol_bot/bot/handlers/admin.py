@@ -22,10 +22,8 @@ def stats(update, context):
     if not u.is_admin:
         return
 
-    text = f"""
-*Users*: {User.objects.count()}
-*24h active*: {User.objects.filter(updated_at__gte=now() - datetime.timedelta(hours=24)).count()}
-    """
+    text = f"*Users*: {User.objects.count()}\n*24h active*: {User.objects.filter(updated_at__gte=now() - datetime.timedelta(hours=24)).count()}"
+
 
     return update.message.reply_text(
         text,

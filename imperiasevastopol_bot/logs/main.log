@@ -18032,3 +18032,854 @@ DEBUG 2023-07-22 20:46:30,353 bot 258 140705790559808 No new updates found.
 DEBUG 2023-07-22 20:46:30,354 bot 258 140705790559808 []
 DEBUG 2023-07-22 20:46:30,354 bot 258 140705790559808 Exiting: get_updates
 DEBUG 2023-07-22 20:46:30,354 bot 258 140705790559808 Entering: get_updates
+INFO 2023-07-24 09:16:25,186 autoreload 78 140486460772352 Watching for file changes with StatReloader
+INFO 2023-07-24 09:16:28,368 commands 78 140486460772352 Command handlers check!
+DEBUG 2023-07-24 09:16:28,423 dispatcher 78 140486460772352 Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fc58aa3f6b0>
+DEBUG 2023-07-24 09:16:28,426 bot 78 140486460772352 Entering: get_me
+DEBUG 2023-07-24 09:16:29,228 bot 78 140486460772352 {'can_read_all_group_messages': False, 'supports_inline_queries': False, 'is_bot': True, 'id': 6040890370, 'username': 'imperiasevastopol_bot', 'can_join_groups': True, 'first_name': 'ImperiaSevastopol_bot'}
+DEBUG 2023-07-24 09:16:29,228 bot 78 140486460772352 Exiting: get_me
+INFO 2023-07-24 09:16:37,841 commands 80 140570390499328 Command handlers check!
+DEBUG 2023-07-24 09:16:37,853 dispatcher 80 140570390499328 Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fd915bb5d80>
+DEBUG 2023-07-24 09:16:37,858 bot 80 140570390499328 Entering: get_me
+DEBUG 2023-07-24 09:16:38,342 bot 80 140570390499328 {'can_read_all_group_messages': False, 'supports_inline_queries': False, 'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'can_join_groups': True, 'id': 6040890370, 'is_bot': True}
+DEBUG 2023-07-24 09:16:38,343 bot 80 140570390499328 Exiting: get_me
+DEBUG 2023-07-24 09:16:38,345 dispatcher 80 140570390499328 Setting singleton dispatcher as None
+DEBUG 2023-07-24 09:16:38,347 bot 80 140570390499328 Entering: get_me
+DEBUG 2023-07-24 09:16:38,825 bot 80 140570390499328 {'can_read_all_group_messages': False, 'supports_inline_queries': False, 'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'can_join_groups': True, 'id': 6040890370, 'is_bot': True}
+DEBUG 2023-07-24 09:16:38,826 bot 80 140570390499328 Exiting: get_me
+INFO 2023-07-24 09:16:38,828 base 80 140570390499328 Scheduler started
+DEBUG 2023-07-24 09:16:38,830 base 80 140570348029504 Looking for jobs to run
+DEBUG 2023-07-24 09:16:38,830 bot 80 140570390499328 Entering: get_me
+DEBUG 2023-07-24 09:16:38,859 base 80 140570348029504 No jobs; waiting until a job is added
+DEBUG 2023-07-24 09:16:39,376 bot 80 140570390499328 {'can_read_all_group_messages': False, 'supports_inline_queries': False, 'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'can_join_groups': True, 'id': 6040890370, 'is_bot': True}
+DEBUG 2023-07-24 09:16:39,377 bot 80 140570390499328 Exiting: get_me
+DEBUG 2023-07-24 09:16:39,379 updater 80 140570339575360 Bot:6040890370:dispatcher - started
+DEBUG 2023-07-24 09:16:39,380 updater 80 140570331121216 Bot:6040890370:updater - started
+DEBUG 2023-07-24 09:16:39,381 updater 80 140570390499328 Waiting for Dispatcher and polling to start
+DEBUG 2023-07-24 09:16:39,383 updater 80 140570331121216 Updater thread started (polling)
+DEBUG 2023-07-24 09:16:39,385 dispatcher 80 140570339575360 Dispatcher started
+DEBUG 2023-07-24 09:16:39,386 updater 80 140570331121216 Start network loop retry bootstrap del webhook
+DEBUG 2023-07-24 09:16:39,387 updater 80 140570331121216 Deleting webhook
+DEBUG 2023-07-24 09:16:39,388 bot 80 140570331121216 Entering: delete_webhook
+DEBUG 2023-07-24 09:16:39,473 bot 80 140570331121216 True
+DEBUG 2023-07-24 09:16:39,474 bot 80 140570331121216 Exiting: delete_webhook
+DEBUG 2023-07-24 09:16:39,474 updater 80 140570331121216 Bootstrap done
+DEBUG 2023-07-24 09:16:39,474 updater 80 140570331121216 Start network loop retry getting Updates
+DEBUG 2023-07-24 09:16:39,475 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:17:29,561 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:17:29,562 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:17:29,562 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:17:29,563 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:18:19,647 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:18:19,648 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:18:19,648 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:18:19,648 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:18:24,695 bot 78 140486382519872 Entering: send_message
+DEBUG 2023-07-24 09:18:25,407 bot 78 140486382519872 {'caption_entities': [], 'group_chat_created': False, 'new_chat_members': [], 'message_id': 403, 'date': 1690179505, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'channel_chat_created': False, 'new_chat_photo': [], 'chat': {'id': 5284299191, 'username': 'studiaplitki', 'type': 'private', 'first_name': 'Татьяна'}, 'text': 'Привет!\nОтвечая на вопросы: шрифты отредактировать сам телеграм не разрешает.\nА так все вроде работает.', 'entities': [], 'photo': [], 'from': {'is_bot': True, 'id': 6040890370, 'username': 'imperiasevastopol_bot', 'first_name': 'ImperiaSevastopol_bot'}}
+DEBUG 2023-07-24 09:18:25,412 bot 78 140486382519872 Exiting: send_message
+DEBUG 2023-07-24 09:19:09,745 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:19:09,746 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:19:09,746 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:19:09,746 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:19:59,834 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:19:59,834 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:19:59,882 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:19:59,883 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:20:49,968 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:20:49,969 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:20:49,969 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:20:49,969 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:21:40,053 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:21:40,053 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:21:40,054 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:21:40,054 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:22:30,147 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:22:30,152 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:22:30,152 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:22:30,152 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:23:20,235 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:23:20,236 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:23:20,236 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:23:20,236 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:24:10,339 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:24:10,339 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:24:10,340 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:24:10,340 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:24:43,719 bot 78 140486392022592 Entering: send_message
+DEBUG 2023-07-24 09:24:44,310 bot 78 140486392022592 {'caption_entities': [], 'group_chat_created': False, 'new_chat_members': [], 'message_id': 404, 'date': 1690179884, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'channel_chat_created': False, 'new_chat_photo': [], 'chat': {'id': 1570090059, 'username': 'D50001', 'last_name': 'Dmitry', 'type': 'private', 'first_name': 'Shakirov'}, 'text': 'БУ!', 'entities': [], 'photo': [], 'from': {'is_bot': True, 'id': 6040890370, 'username': 'imperiasevastopol_bot', 'first_name': 'ImperiaSevastopol_bot'}}
+DEBUG 2023-07-24 09:24:44,310 bot 78 140486392022592 Exiting: send_message
+DEBUG 2023-07-24 09:25:00,077 bot 80 140570331121216 Getting updates: [930975609]
+DEBUG 2023-07-24 09:25:00,078 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae44c0>]
+DEBUG 2023-07-24 09:25:00,078 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:25:00,079 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:25:00,079 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690047741, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 402, 'group_chat_created': False, 'date': 1690047737, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'ABOUT_US', 'id': '6743485455813661910', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975609}
+DEBUG 2023-07-24 09:25:00,187 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:25:00,633 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 5}, {'type': 'bold', 'offset': 34, 'length': 21}, {'type': 'bold', 'offset': 353, 'length': 10}, {'type': 'bold', 'offset': 568, 'length': 7}, {'type': 'bold', 'offset': 578, 'length': 8}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'О нас\nСтудия \xa0керамической плитки «Империя Севастополь»\xa0специализируется на  розничных продажах керамической плитки, мозаики и  керамогранита .\n\n\nМы предлагаем большой выбор новинок от самых известных российских и европейских производителей керамической плитки, в том числе эксклюзивные коллекции.\n\n\nВ своей работе используем профессиональную программу Ceramic 3D для составления дизайн- проекта помещений с раскладкой плитки. Предоставляем техническую документацию для строителей.\n\n\nОтдел закупок студии ежегодно посещает международные выставки, проходящие в Москве, Batimat и MosBuild.\nМы постоянно отслеживаем все новейшие тенденции плиточной моды, технологические новинки производства плитки и регулярно обновляем ассортимент.\n\nЕсли Вас заинтересовал наш ассортимент, мы всегда будем рады взаимовыгодному сотрудничеству.\n\nУдачных Вам покупок и прекрасного настроения!', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 405, 'group_chat_created': False, 'date': 1690179900, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:00,634 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:25:00,635 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:25:00,758 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 406, 'group_chat_created': False, 'date': 1690179900, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:00,759 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:25:07,885 bot 80 140570331121216 Getting updates: [930975610]
+DEBUG 2023-07-24 09:25:07,886 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae4580>]
+DEBUG 2023-07-24 09:25:07,886 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:25:07,886 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:25:07,888 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 406, 'group_chat_created': False, 'date': 1690179900, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485459447708130', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975610}
+DEBUG 2023-07-24 09:25:07,911 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:25:08,016 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690179907, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 406, 'group_chat_created': False, 'date': 1690179900, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:08,017 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:25:10,480 bot 80 140570331121216 Getting updates: [930975611]
+DEBUG 2023-07-24 09:25:10,481 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5300>]
+DEBUG 2023-07-24 09:25:10,481 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:25:10,481 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:25:10,481 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690179907, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 406, 'group_chat_created': False, 'date': 1690179900, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'LOCATION', 'id': '6743485455201368020', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975611}
+DEBUG 2023-07-24 09:25:10,501 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:25:10,906 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 407, 'group_chat_created': False, 'date': 1690179910, 'photo': [{'width': 90, 'height': 67, 'file_unique_id': 'AQAD39IxG1Lr4El4', 'file_size': 1281, 'file_id': 'AgACAgIAAxkDAAIBl2S-GUYTk8If2ykD2yoDFKukjIjeAALf0jEbUuvgSYyTF8QWHbrxAQADAgADcwADLwQ'}, {'width': 320, 'height': 240, 'file_unique_id': 'AQAD39IxG1Lr4Ely', 'file_size': 19390, 'file_id': 'AgACAgIAAxkDAAIBl2S-GUYTk8If2ykD2yoDFKukjIjeAALf0jEbUuvgSYyTF8QWHbrxAQADAgADbQADLwQ'}, {'width': 800, 'height': 600, 'file_unique_id': 'AQAD39IxG1Lr4El9', 'file_size': 97059, 'file_id': 'AgACAgIAAxkDAAIBl2S-GUYTk8If2ykD2yoDFKukjIjeAALf0jEbUuvgSYyTF8QWHbrxAQADAgADeAADLwQ'}, {'width': 1280, 'height': 960, 'file_unique_id': 'AQAD39IxG1Lr4El-', 'file_size': 193752, 'file_id': 'AgACAgIAAxkDAAIBl2S-GUYTk8If2ykD2yoDFKukjIjeAALf0jEbUuvgSYyTF8QWHbrxAQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:10,907 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:25:10,908 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:25:11,068 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 14}, {'type': 'url', 'offset': 105, 'length': 35}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Местоположение\nгор. Севастополь, ул. Шабалина, 27, \nкоординаты  44.574276, 33.507094\nСсылка на Я.Картах  https://yandex.ru/maps/-/CCUgnUxFxA\n(ВЪЕЗД в серые ворота на территорию. «Лирей»\nВХОД со стороны дороги)', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 408, 'group_chat_created': False, 'date': 1690179911, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:11,068 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:25:11,069 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:25:11,174 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 409, 'group_chat_created': False, 'date': 1690179911, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:11,175 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:25:14,382 bot 80 140570331121216 Getting updates: [930975612]
+DEBUG 2023-07-24 09:25:14,383 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 09:25:14,383 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:25:14,384 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:25:14,385 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 409, 'group_chat_created': False, 'date': 1690179911, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485457765450241', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975612}
+DEBUG 2023-07-24 09:25:14,409 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:25:14,596 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690179914, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 409, 'group_chat_created': False, 'date': 1690179911, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:25:14,597 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:26:04,468 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:26:04,469 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:26:04,469 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:26:04,469 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:26:54,553 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:26:54,553 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:26:54,553 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:26:54,554 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:27:44,643 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:27:44,644 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:27:44,644 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:27:44,644 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:28:34,763 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:28:34,764 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:28:34,764 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:28:34,768 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:29:24,856 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:29:24,856 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:29:24,856 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:29:24,857 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:30:14,944 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:30:14,945 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:30:14,945 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:30:14,945 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:31:05,030 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:31:05,031 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:31:05,031 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:31:05,031 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:31:55,116 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:31:55,116 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:31:55,116 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:31:55,117 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:32:45,199 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:32:45,200 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:32:45,200 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:32:45,201 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:33:35,284 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:33:35,285 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:33:35,285 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:33:35,285 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:34:25,392 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:34:25,393 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:34:25,393 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:34:25,393 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:35:15,477 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:35:15,478 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:35:15,478 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:35:15,478 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:36:05,562 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:36:05,563 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:36:05,565 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:36:05,565 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:36:55,666 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:36:55,667 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:36:55,667 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:36:55,668 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:37:45,758 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:37:45,759 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:37:45,759 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:37:45,759 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:38:35,846 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:38:35,846 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:38:35,846 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:38:35,847 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:39:25,930 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:39:25,930 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:39:25,930 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:39:25,931 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:40:16,018 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:40:16,018 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:40:16,019 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:40:16,019 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:41:06,110 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:41:06,110 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:41:06,111 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:41:06,111 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:41:56,206 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:41:56,206 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:41:56,207 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:41:56,207 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:42:46,294 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:42:46,294 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:42:46,295 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:42:46,295 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:43:36,385 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:43:36,386 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:43:36,386 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:43:36,386 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:44:26,469 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:44:26,470 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:44:26,471 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:44:26,471 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:45:16,556 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:45:16,556 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:45:16,556 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:45:16,557 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:46:06,640 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:46:06,640 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:46:06,640 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:46:06,641 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:46:56,725 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:46:56,726 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:46:56,726 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:46:56,727 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:47:46,813 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:47:46,823 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:47:46,824 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:47:46,824 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:48:36,908 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:48:36,908 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:48:36,908 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:48:36,909 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:49:26,991 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:49:26,992 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:49:26,992 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:49:26,992 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:50:17,079 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:50:17,088 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:50:17,088 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:50:17,088 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:51:07,174 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:51:07,175 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:51:07,175 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:51:07,175 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:51:57,261 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:51:57,261 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:51:57,262 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:51:57,262 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:52:47,345 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:52:47,346 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:52:47,346 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:52:47,347 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:53:37,431 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:53:37,431 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:53:37,432 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:53:37,432 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:54:27,518 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:54:27,518 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:54:27,519 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:54:27,519 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:55:01,018 bot 80 140570331121216 Getting updates: [930975613]
+DEBUG 2023-07-24 09:55:01,168 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae4580>]
+DEBUG 2023-07-24 09:55:01,281 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:55:01,281 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:55:01,283 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1688474013, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 296, 'group_chat_created': False, 'date': 1688474007, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'ABOUT_US', 'id': '4249148136996725159', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975613}
+DEBUG 2023-07-24 09:55:03,004 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:55:05,650 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 5}, {'type': 'bold', 'offset': 34, 'length': 21}, {'type': 'bold', 'offset': 353, 'length': 10}, {'type': 'bold', 'offset': 568, 'length': 7}, {'type': 'bold', 'offset': 578, 'length': 8}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'О нас\nСтудия \xa0керамической плитки «Империя Севастополь»\xa0специализируется на  розничных продажах керамической плитки, мозаики и  керамогранита .\n\n\nМы предлагаем большой выбор новинок от самых известных российских и европейских производителей керамической плитки, в том числе эксклюзивные коллекции.\n\n\nВ своей работе используем профессиональную программу Ceramic 3D для составления дизайн- проекта помещений с раскладкой плитки. Предоставляем техническую документацию для строителей.\n\n\nОтдел закупок студии ежегодно посещает международные выставки, проходящие в Москве, Batimat и MosBuild.\nМы постоянно отслеживаем все новейшие тенденции плиточной моды, технологические новинки производства плитки и регулярно обновляем ассортимент.\n\nЕсли Вас заинтересовал наш ассортимент, мы всегда будем рады взаимовыгодному сотрудничеству.\n\nУдачных Вам покупок и прекрасного настроения!', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 410, 'group_chat_created': False, 'date': 1690181705, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:05,651 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:55:05,651 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:55:05,765 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 411, 'group_chat_created': False, 'date': 1690181705, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:05,766 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:55:51,365 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:55:51,365 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:55:51,366 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:55:51,366 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:55:52,279 bot 80 140570331121216 Getting updates: [930975614]
+DEBUG 2023-07-24 09:55:52,280 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5300>]
+DEBUG 2023-07-24 09:55:52,280 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:55:52,280 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:55:52,280 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 411, 'group_chat_created': False, 'date': 1690181705, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'IN_PLACE_BACK', 'id': '4249148137632662742', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975614}
+DEBUG 2023-07-24 09:55:52,329 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:55:52,432 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181752, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 411, 'group_chat_created': False, 'date': 1690181705, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:52,433 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:55:54,369 bot 80 140570331121216 Getting updates: [930975615]
+DEBUG 2023-07-24 09:55:54,370 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae4580>]
+DEBUG 2023-07-24 09:55:54,371 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:55:54,371 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:55:54,371 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181752, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 411, 'group_chat_created': False, 'date': 1690181705, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'PROMOTIONS', 'id': '4249148133965888695', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975615}
+DEBUG 2023-07-24 09:55:54,553 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:55:54,978 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 412, 'group_chat_created': False, 'date': 1690181754, 'photo': [{'width': 67, 'height': 90, 'file_unique_id': 'AQADNdMxG1Lr4El4', 'file_size': 1167, 'file_id': 'AgACAgIAAxkDAAIBnGS-IHp4GqRBNxnQzDn8QXTZZN4KAAI10zEbUuvgSYjT8WaklXkWAQADAgADcwADLwQ'}, {'width': 240, 'height': 320, 'file_unique_id': 'AQADNdMxG1Lr4Ely', 'file_size': 20612, 'file_id': 'AgACAgIAAxkDAAIBnGS-IHp4GqRBNxnQzDn8QXTZZN4KAAI10zEbUuvgSYjT8WaklXkWAQADAgADbQADLwQ'}, {'width': 600, 'height': 800, 'file_unique_id': 'AQADNdMxG1Lr4El9', 'file_size': 103761, 'file_id': 'AgACAgIAAxkDAAIBnGS-IHp4GqRBNxnQzDn8QXTZZN4KAAI10zEbUuvgSYjT8WaklXkWAQADAgADeAADLwQ'}, {'width': 960, 'height': 1280, 'file_unique_id': 'AQADNdMxG1Lr4El-', 'file_size': 201495, 'file_id': 'AgACAgIAAxkDAAIBnGS-IHp4GqRBNxnQzDn8QXTZZN4KAAI10zEbUuvgSYjT8WaklXkWAQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:54,980 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:55:55,024 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:55:55,200 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 56}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Керамогранит  глазурованный матовый Moonlight 0005 60*60\nКерамогранит  глазурованный матовый Moonlight 0005 60*60 , стоимость 1396 руб/м2   \nЦена от 1 пал. (43.2 м.кв)', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 413, 'group_chat_created': False, 'date': 1690181755, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:55,201 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:55:55,201 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:55:55,347 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 414, 'group_chat_created': False, 'date': 1690181755, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:55:55,348 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:04,123 bot 80 140570331121216 Getting updates: [930975616]
+DEBUG 2023-07-24 09:56:04,124 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 09:56:04,124 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:04,125 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:04,127 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 414, 'group_chat_created': False, 'date': 1690181755, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'IN_PLACE_BACK', 'id': '4249148133980827493', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975616}
+DEBUG 2023-07-24 09:56:04,153 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:56:04,272 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181764, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 414, 'group_chat_created': False, 'date': 1690181755, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:04,273 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:56:06,534 bot 80 140570331121216 Getting updates: [930975617]
+DEBUG 2023-07-24 09:56:06,535 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5480>]
+DEBUG 2023-07-24 09:56:06,535 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:06,535 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:06,538 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181764, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 414, 'group_chat_created': False, 'date': 1690181755, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'LOCATION', 'id': '4249148137226654924', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975617}
+DEBUG 2023-07-24 09:56:06,556 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:56:06,743 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 415, 'group_chat_created': False, 'date': 1690181766, 'photo': [{'width': 90, 'height': 67, 'file_unique_id': 'AQAD39IxG1Lr4El4', 'file_size': 1281, 'file_id': 'AgACAgIAAxkDAAIBn2S-IIaWXdu0cqFAV4K4LwVJ2pKmAALf0jEbUuvgSYyTF8QWHbrxAQADAgADcwADLwQ'}, {'width': 320, 'height': 240, 'file_unique_id': 'AQAD39IxG1Lr4Ely', 'file_size': 19390, 'file_id': 'AgACAgIAAxkDAAIBn2S-IIaWXdu0cqFAV4K4LwVJ2pKmAALf0jEbUuvgSYyTF8QWHbrxAQADAgADbQADLwQ'}, {'width': 800, 'height': 600, 'file_unique_id': 'AQAD39IxG1Lr4El9', 'file_size': 97059, 'file_id': 'AgACAgIAAxkDAAIBn2S-IIaWXdu0cqFAV4K4LwVJ2pKmAALf0jEbUuvgSYyTF8QWHbrxAQADAgADeAADLwQ'}, {'width': 1280, 'height': 960, 'file_unique_id': 'AQAD39IxG1Lr4El-', 'file_size': 193752, 'file_id': 'AgACAgIAAxkDAAIBn2S-IIaWXdu0cqFAV4K4LwVJ2pKmAALf0jEbUuvgSYyTF8QWHbrxAQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:06,745 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:56:06,745 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:06,875 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 14}, {'type': 'url', 'offset': 105, 'length': 35}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Местоположение\nгор. Севастополь, ул. Шабалина, 27, \nкоординаты  44.574276, 33.507094\nСсылка на Я.Картах  https://yandex.ru/maps/-/CCUgnUxFxA\n(ВЪЕЗД в серые ворота на территорию. «Лирей»\nВХОД со стороны дороги)', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 416, 'group_chat_created': False, 'date': 1690181766, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:06,876 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:06,876 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:06,998 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 417, 'group_chat_created': False, 'date': 1690181766, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:06,999 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:18,518 bot 80 140570331121216 Getting updates: [930975618]
+DEBUG 2023-07-24 09:56:18,519 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae4580>]
+DEBUG 2023-07-24 09:56:18,519 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:18,520 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:18,522 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 417, 'group_chat_created': False, 'date': 1690181766, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'IN_PLACE_BACK', 'id': '4249148134331477206', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975618}
+DEBUG 2023-07-24 09:56:18,544 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:56:18,652 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181778, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 417, 'group_chat_created': False, 'date': 1690181766, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:18,653 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:56:20,591 bot 80 140570331121216 Getting updates: [930975619]
+DEBUG 2023-07-24 09:56:20,592 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 09:56:20,593 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:20,593 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:20,595 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181778, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 417, 'group_chat_created': False, 'date': 1690181766, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'CONTACTS', 'id': '4249148134880577248', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975619}
+DEBUG 2023-07-24 09:56:20,711 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:20,825 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 8}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Контакты\nViber: +7 (978)-128-17-78\nWhatsApp: +7 (978)-128-17-78\nTelegram: +7 (978)-128-17-78', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 418, 'group_chat_created': False, 'date': 1690181780, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:20,826 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:20,826 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:20,935 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 419, 'group_chat_created': False, 'date': 1690181780, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:20,935 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:30,111 bot 80 140570331121216 Getting updates: [930975620]
+DEBUG 2023-07-24 09:56:30,112 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5480>]
+DEBUG 2023-07-24 09:56:30,112 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:30,113 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:30,113 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 419, 'group_chat_created': False, 'date': 1690181780, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'IN_PLACE_BACK', 'id': '4249148135420364038', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975620}
+DEBUG 2023-07-24 09:56:30,137 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:56:30,277 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181790, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 419, 'group_chat_created': False, 'date': 1690181780, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:30,278 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:56:32,641 bot 80 140570331121216 Getting updates: [930975621]
+DEBUG 2023-07-24 09:56:32,642 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 09:56:32,642 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:56:32,642 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:56:32,642 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181790, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 419, 'group_chat_created': False, 'date': 1690181780, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'FAQ', 'id': '4249148136476662895', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975621}
+DEBUG 2023-07-24 09:56:32,668 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:32,804 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 53}, {'type': 'bold', 'offset': 124, 'length': 10}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '- Сделаете ли раскладку и расчет плитки в компьютере?\n- С удовольствием сделаем для Вас проект в профессиональной программе Ceramic 3D , в котором учтем все Ваши пожелания  по дизайну и расположению мебели, а также предоставим Вашим строителям подробную раскладку материала.', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 420, 'group_chat_created': False, 'date': 1690181792, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:32,805 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:32,805 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:32,924 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 65}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '-Можете ли предложить нам сантехнику и мебель для нашего санузла?\n-Да. Мы занимаемся полной комплектацией санузлов. Включая сантехнику, душевые ограждения, мебель, ревизионные люки, сливные трапы и многое другое.', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 421, 'group_chat_created': False, 'date': 1690181792, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:32,925 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:32,925 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:33,045 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 53}, {'type': 'bold', 'offset': 94, 'length': 21}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '-Можно ли в Вашей студии приобрести мозаику бассейна?\n-Да. В нашей студии керамической плитки «Империя Севастополь» огромнейший выбор мозаики из керамики, стекла, натурального мрамора, керамогранита. Квалифицированный менеджер поможет Вам подобрать и рассчитать необходимое количество материала.', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 422, 'group_chat_created': False, 'date': 1690181793, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:33,046 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:33,047 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:33,198 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 52}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '-Можете ли предложить плинтуса в цвет керамогранита?\n-В нашей студии Вы сможете приобрести плинтуса по Вашим размерам из керамогранита  или плитки , мы предлагаем услугу по изготовлению данного вида товара.', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 423, 'group_chat_created': False, 'date': 1690181793, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:33,199 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:33,199 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:33,386 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 59}, {'type': 'bold', 'offset': 101, 'length': 21}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '-Продаете ли карнизы и плинтуса для потолка из полиуретана?\n- Да. В нашей студии керамической плитки «Империя Севастополь» Вы можете приобрести интерьерный декор, такой как карнизы, плинтуса, молдинги из полиурентана или дюрополимера.', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 424, 'group_chat_created': False, 'date': 1690181793, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:33,387 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:33,387 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:33,498 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 103}, {'type': 'bold', 'offset': 137, 'length': 21}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '-Мы живем в другом регионе, а ремонт делаем в Крыму, можем ли мы заказать материалы у Вас дистанционно?\n-Наша студия керамической плитки «Империя Севастополь» рада предложить свои услуги любым удобным для Вас способом, для подробной консультации звоните или пишите в мессенджеры указанные в разделе «КОНТАКТЫ».', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 425, 'group_chat_created': False, 'date': 1690181793, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:33,499 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:56:33,499 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:56:33,622 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 426, 'group_chat_created': False, 'date': 1690181793, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:56:33,623 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:57:21,290 bot 80 140570331121216 Getting updates: [930975622]
+DEBUG 2023-07-24 09:57:21,291 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5480>]
+DEBUG 2023-07-24 09:57:21,292 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:57:21,292 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:57:21,295 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 426, 'group_chat_created': False, 'date': 1690181793, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'IN_PLACE_BACK', 'id': '4249148137670920220', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975622}
+DEBUG 2023-07-24 09:57:21,319 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 09:57:21,443 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181841, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 426, 'group_chat_created': False, 'date': 1690181793, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:21,445 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 09:57:26,872 bot 80 140570331121216 Getting updates: [930975623]
+DEBUG 2023-07-24 09:57:26,873 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae56c0>]
+DEBUG 2023-07-24 09:57:26,874 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:57:26,874 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:57:26,876 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690181841, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 426, 'group_chat_created': False, 'date': 1690181793, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-5053052309394008335', 'data': 'WEEK_SALES', 'id': '4249148135780816281', 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}, 'update_id': 930975623}
+DEBUG 2023-07-24 09:57:26,893 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:57:27,115 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 427, 'group_chat_created': False, 'date': 1690181847, 'photo': [{'width': 90, 'height': 53, 'file_unique_id': 'AQADb9IxG1Lr4El4', 'file_size': 676, 'file_id': 'AgACAgIAAxkDAAIBq2S-INfL_Rv2h-1lg4H4zM52nKmgAAJv0jEbUuvgSa0VPlUTKlELAQADAgADcwADLwQ'}, {'width': 320, 'height': 188, 'file_unique_id': 'AQADb9IxG1Lr4Ely', 'file_size': 9045, 'file_id': 'AgACAgIAAxkDAAIBq2S-INfL_Rv2h-1lg4H4zM52nKmgAAJv0jEbUuvgSa0VPlUTKlELAQADAgADbQADLwQ'}, {'width': 800, 'height': 469, 'file_unique_id': 'AQADb9IxG1Lr4El9', 'file_size': 34069, 'file_id': 'AgACAgIAAxkDAAIBq2S-INfL_Rv2h-1lg4H4zM52nKmgAAJv0jEbUuvgSa0VPlUTKlELAQADAgADeAADLwQ'}, {'width': 1280, 'height': 750, 'file_unique_id': 'AQADb9IxG1Lr4El-', 'file_size': 58675, 'file_id': 'AgACAgIAAxkDAAIBq2S-INfL_Rv2h-1lg4H4zM52nKmgAAJv0jEbUuvgSa0VPlUTKlELAQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:27,116 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:57:27,116 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:57:27,307 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 47}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '1.Плитка облицовочная CALACATTA GREY 242*700 мм\n1.Плитка облицовочная CALACATTA GREY 242*700 мм, стоимость 1988 руб/м2', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 428, 'group_chat_created': False, 'date': 1690181847, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:27,308 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:57:27,309 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:57:27,557 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 429, 'group_chat_created': False, 'date': 1690181847, 'photo': [{'width': 90, 'height': 46, 'file_unique_id': 'AQADc9IxG1Lr4El4', 'file_size': 649, 'file_id': 'AgACAgIAAxkDAAIBrWS-INdQmPcyiTReTLIBCRi8tCTdAAJz0jEbUuvgSTZh3kG6OhV7AQADAgADcwADLwQ'}, {'width': 320, 'height': 162, 'file_unique_id': 'AQADc9IxG1Lr4Ely', 'file_size': 12454, 'file_id': 'AgACAgIAAxkDAAIBrWS-INdQmPcyiTReTLIBCRi8tCTdAAJz0jEbUuvgSTZh3kG6OhV7AQADAgADbQADLwQ'}, {'width': 800, 'height': 406, 'file_unique_id': 'AQADc9IxG1Lr4El9', 'file_size': 90076, 'file_id': 'AgACAgIAAxkDAAIBrWS-INdQmPcyiTReTLIBCRi8tCTdAAJz0jEbUuvgSTZh3kG6OhV7AQADAgADeAADLwQ'}, {'width': 1200, 'height': 609, 'file_unique_id': 'AQADc9IxG1Lr4El-', 'file_size': 159356, 'file_id': 'AgACAgIAAxkDAAIBrWS-INdQmPcyiTReTLIBCRi8tCTdAAJz0jEbUuvgSTZh3kG6OhV7AQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:27,558 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:57:27,559 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:57:27,750 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 44}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '2. Керамогранит матовый Madera 1200*600*5 мм\nКерамогранит матовый Madera 1200*600*5 мм, стоимость 2570 руб/м2', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 430, 'group_chat_created': False, 'date': 1690181847, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:27,751 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:57:27,752 bot 80 140570339575360 Entering: send_photo
+DEBUG 2023-07-24 09:57:27,996 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 431, 'group_chat_created': False, 'date': 1690181847, 'photo': [{'width': 90, 'height': 46, 'file_unique_id': 'AQADeNIxG1Lr4El4', 'file_size': 536, 'file_id': 'AgACAgIAAxkDAAIBr2S-INeb36hOqJWUnadFoMqEqWYKAAJ40jEbUuvgSc_RCiqYfG-MAQADAgADcwADLwQ'}, {'width': 320, 'height': 162, 'file_unique_id': 'AQADeNIxG1Lr4Ely', 'file_size': 6602, 'file_id': 'AgACAgIAAxkDAAIBr2S-INeb36hOqJWUnadFoMqEqWYKAAJ40jEbUuvgSc_RCiqYfG-MAQADAgADbQADLwQ'}, {'width': 800, 'height': 406, 'file_unique_id': 'AQADeNIxG1Lr4El9', 'file_size': 26360, 'file_id': 'AgACAgIAAxkDAAIBr2S-INeb36hOqJWUnadFoMqEqWYKAAJ40jEbUuvgSc_RCiqYfG-MAQADAgADeAADLwQ'}, {'width': 1280, 'height': 649, 'file_unique_id': 'AQADeNIxG1Lr4El-', 'file_size': 46107, 'file_id': 'AgACAgIAAxkDAAIBr2S-INeb36hOqJWUnadFoMqEqWYKAAJ40jEbUuvgSc_RCiqYfG-MAQADAgADeQADLwQ'}], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:27,997 bot 80 140570339575360 Exiting: send_photo
+DEBUG 2023-07-24 09:57:27,997 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:57:28,183 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 51}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '3. Керамогранит глянцевый Roma blanco 1200*600*5 мм\n3. Керамогранит глянцевый Roma blanco 1200*600*5 мм- 2570 руб./м2', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 432, 'group_chat_created': False, 'date': 1690181848, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:28,184 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:57:28,184 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 09:57:28,347 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 433, 'group_chat_created': False, 'date': 1690181848, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 09:57:28,347 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 09:57:59,096 bot 80 140570331121216 Getting updates: [930975624]
+DEBUG 2023-07-24 09:57:59,097 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5780>]
+DEBUG 2023-07-24 09:57:59,098 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:57:59,098 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:57:59,101 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975624, 'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'chat': {'first_name': 'Татьяна', 'type': 'private', 'username': 'studiaplitki', 'id': 5284299191}, 'sticker': {'width': 512, 'set_name': 'UtyaD', 'height': 512, 'type': 'regular', 'thumb': {'width': 128, 'height': 128, 'file_unique_id': 'AQADoAADwZxgDHI', 'file_size': 5622, 'file_id': 'AAMCAgADGQEAAgGyZL4g93VMcKw7vK2M_Eq_7thTG4MAAqAAA8GcYAxXjdAOWatpYgEAB20AAy8E'}, 'file_unique_id': 'AgADoAADwZxgDA', 'is_video': False, 'file_size': 12598, 'file_id': 'CAACAgIAAxkBAAIBsmS-IPd1THCsO7ytjPxKv-7YUxuDAAKgAAPBnGAMV43QDlmraWIvBA', 'emoji': '👍', 'is_animated': True}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 434, 'group_chat_created': False, 'date': 1690181879, 'photo': [], 'from': {'first_name': 'Татьяна', 'username': 'studiaplitki', 'language_code': 'ru', 'id': 5284299191, 'is_bot': False}}}
+DEBUG 2023-07-24 09:58:49,185 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:58:49,186 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:58:49,186 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:58:49,186 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 09:59:39,272 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 09:59:39,272 bot 80 140570331121216 []
+DEBUG 2023-07-24 09:59:39,273 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 09:59:39,273 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:00:29,360 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:00:29,361 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:00:29,361 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:00:29,361 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:01:19,456 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:01:19,457 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:01:19,457 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:01:19,457 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:02:09,541 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:02:09,542 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:02:09,542 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:02:09,542 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:02:59,629 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:02:59,630 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:02:59,630 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:02:59,630 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:03:49,329 bot 80 140570331121216 Getting updates: [930975625]
+DEBUG 2023-07-24 10:03:49,330 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5480>]
+DEBUG 2023-07-24 10:03:49,330 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:03:49,333 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:03:49,335 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690179914, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 409, 'group_chat_created': False, 'date': 1690179911, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'CONTACTS', 'id': '6743485455222803175', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975625}
+DEBUG 2023-07-24 10:03:49,353 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:03:49,498 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 8}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Контакты\nViber: +7 (978)-128-17-78\nWhatsApp: +7 (978)-128-17-78\nTelegram: +7 (978)-128-17-78', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 435, 'group_chat_created': False, 'date': 1690182229, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:03:49,499 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:03:49,499 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:03:49,615 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 436, 'group_chat_created': False, 'date': 1690182229, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:03:49,616 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:03:51,816 bot 80 140570331121216 Getting updates: [930975626]
+DEBUG 2023-07-24 10:03:51,817 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae56c0>]
+DEBUG 2023-07-24 10:03:51,817 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:03:51,817 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:03:51,817 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 436, 'group_chat_created': False, 'date': 1690182229, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485458655312859', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975626}
+DEBUG 2023-07-24 10:03:51,892 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:03:52,017 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690182232, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 436, 'group_chat_created': False, 'date': 1690182229, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:03:52,018 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:04:41,903 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:04:41,903 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:04:41,904 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:04:41,904 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:05:31,989 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:05:31,990 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:05:31,990 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:05:31,990 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:06:22,075 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:06:22,075 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:06:22,076 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:06:22,076 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:06:58,343 bot 80 140570331121216 Getting updates: [930975627]
+DEBUG 2023-07-24 10:06:58,344 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5480>]
+DEBUG 2023-07-24 10:06:58,345 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:06:58,345 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:06:58,347 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975627, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 13}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/secret_level', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 437, 'group_chat_created': False, 'date': 1690182418, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:06:58,442 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:06:58,554 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 438, 'group_chat_created': False, 'date': 1690182418, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:06:58,555 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:07:02,402 bot 80 140570331121216 Getting updates: [930975628]
+DEBUG 2023-07-24 10:07:02,403 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5780>]
+DEBUG 2023-07-24 10:07:02,404 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:07:02,404 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:07:02,406 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 438, 'group_chat_created': False, 'date': 1690182418, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485458060892476', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975628}
+DEBUG 2023-07-24 10:07:02,431 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:07:02,607 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690182422, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 438, 'group_chat_created': False, 'date': 1690182418, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:07:02,608 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:07:52,490 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:07:52,490 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:07:52,491 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:07:52,491 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:08:42,580 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:08:42,581 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:08:42,581 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:08:42,581 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:09:06,824 bot 80 140570331121216 Getting updates: [930975629]
+DEBUG 2023-07-24 10:09:06,825 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5840>]
+DEBUG 2023-07-24 10:09:06,826 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:09:06,826 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:09:06,828 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975629, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 9}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/scrt_lvl', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 439, 'group_chat_created': False, 'date': 1690182546, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:09:06,852 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:09:06,970 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 440, 'group_chat_created': False, 'date': 1690182546, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:09:06,971 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:09:19,279 bot 80 140570331121216 Getting updates: [930975630]
+DEBUG 2023-07-24 10:09:19,280 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5780>]
+DEBUG 2023-07-24 10:09:19,280 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:09:19,281 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:09:19,283 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 440, 'group_chat_created': False, 'date': 1690182546, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485458718652056', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975630}
+DEBUG 2023-07-24 10:09:19,305 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:09:19,423 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690182559, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 440, 'group_chat_created': False, 'date': 1690182546, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:09:19,424 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:09:59,654 bot 80 140570331121216 Getting updates: [930975631]
+DEBUG 2023-07-24 10:09:59,655 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5540>]
+DEBUG 2023-07-24 10:09:59,655 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:09:59,655 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:09:59,657 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975631, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/start', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 441, 'group_chat_created': False, 'date': 1690182599, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:09:59,679 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:09:59,817 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Hello!', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 442, 'group_chat_created': False, 'date': 1690182599, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:09:59,818 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:10:12,018 bot 80 140570331121216 Getting updates: [930975632]
+DEBUG 2023-07-24 10:10:12,019 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5840>]
+DEBUG 2023-07-24 10:10:12,019 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:10:12,019 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:10:12,021 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975632, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 9}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/scrt_lvl', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 443, 'group_chat_created': False, 'date': 1690182612, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:10:12,045 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:10:12,179 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 444, 'group_chat_created': False, 'date': 1690182612, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:10:12,180 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:10:13,512 bot 80 140570331121216 Getting updates: [930975633]
+DEBUG 2023-07-24 10:10:13,513 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5540>]
+DEBUG 2023-07-24 10:10:13,513 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:10:13,513 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:10:13,513 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 444, 'group_chat_created': False, 'date': 1690182612, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485456760576698', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975633}
+DEBUG 2023-07-24 10:10:13,537 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:10:13,671 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690182613, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 444, 'group_chat_created': False, 'date': 1690182612, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:10:13,672 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:11:03,604 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:11:03,605 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:11:03,605 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:11:03,605 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:11:53,692 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:11:53,693 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:11:53,693 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:11:53,693 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:12:43,778 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:12:43,782 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:12:43,782 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:12:43,783 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:13:33,867 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:13:33,868 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:13:33,868 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:13:33,868 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:14:23,952 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:14:23,953 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:14:23,953 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:14:23,953 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:15:14,037 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:15:14,037 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:15:14,037 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:15:14,038 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:16:04,120 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:16:04,121 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:16:04,121 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:16:04,122 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:16:27,503 bot 80 140570331121216 Getting updates: [930975634]
+DEBUG 2023-07-24 10:16:27,504 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5840>]
+DEBUG 2023-07-24 10:16:27,504 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:16:27,505 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:16:27,507 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Hello!', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 442, 'group_chat_created': False, 'date': 1690182599, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'CONTACTS', 'id': '6743485455821459234', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975634}
+DEBUG 2023-07-24 10:16:27,526 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:16:27,643 bot 80 140570339575360 {'entities': [{'type': 'bold', 'offset': 0, 'length': 8}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Контакты\nViber: +7 (978)-128-17-78\nWhatsApp: +7 (978)-128-17-78\nTelegram: +7 (978)-128-17-78', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 445, 'group_chat_created': False, 'date': 1690182987, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:16:27,644 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:16:27,644 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:16:27,780 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'На главную', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 446, 'group_chat_created': False, 'date': 1690182987, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:16:27,781 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:17:17,612 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:17:17,613 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:17:17,613 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:17:17,613 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:17:44,154 bot 80 140570331121216 Getting updates: [930975635]
+DEBUG 2023-07-24 10:17:44,155 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 10:17:44,155 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:17:44,155 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:17:44,157 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975635, 'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'scrt_lvl', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 447, 'group_chat_created': False, 'date': 1690183064, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:17:44,181 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:17:44,300 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 448, 'group_chat_created': False, 'date': 1690183064, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:17:44,301 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:17:54,060 bot 80 140570331121216 Getting updates: [930975636]
+DEBUG 2023-07-24 10:17:54,061 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5540>]
+DEBUG 2023-07-24 10:17:54,062 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:17:54,062 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:17:54,064 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975636, 'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'SCRT_LVL', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 449, 'group_chat_created': False, 'date': 1690183074, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:17:54,089 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:17:54,210 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 450, 'group_chat_created': False, 'date': 1690183074, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:17:54,211 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:17:55,501 bot 80 140570331121216 Getting updates: [930975637]
+DEBUG 2023-07-24 10:17:55,502 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 10:17:55,502 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:17:55,502 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:17:55,505 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 450, 'group_chat_created': False, 'date': 1690183074, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485457540626179', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975637}
+DEBUG 2023-07-24 10:17:55,527 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:17:55,639 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690183075, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 450, 'group_chat_created': False, 'date': 1690183074, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:17:55,640 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:18:42,896 bot 80 140570331121216 Getting updates: [930975638]
+DEBUG 2023-07-24 10:18:42,897 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5780>]
+DEBUG 2023-07-24 10:18:42,897 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:18:42,897 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:18:42,899 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975638, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/stats', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 451, 'group_chat_created': False, 'date': 1690183122, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:18:42,923 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:18:43,117 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 452, 'group_chat_created': False, 'date': 1690183123, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:18:43,118 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:18:44,523 bot 80 140570331121216 Getting updates: [930975639]
+DEBUG 2023-07-24 10:18:44,524 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 10:18:44,525 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:18:44,525 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:18:44,527 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 452, 'group_chat_created': False, 'date': 1690183123, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485455570474459', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975639}
+DEBUG 2023-07-24 10:18:44,550 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:18:44,670 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690183124, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 452, 'group_chat_created': False, 'date': 1690183123, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:18:44,671 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 10:18:54,775 bot 80 140570331121216 Getting updates: [930975640]
+DEBUG 2023-07-24 10:18:54,776 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5840>]
+DEBUG 2023-07-24 10:18:54,777 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:18:54,777 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:18:54,779 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975640, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/start', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 453, 'group_chat_created': False, 'date': 1690183134, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:18:54,801 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:18:54,912 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Hello!', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 454, 'group_chat_created': False, 'date': 1690183134, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:18:54,913 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:19:28,684 bot 80 140570331121216 Getting updates: [930975641]
+DEBUG 2023-07-24 10:19:28,685 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5780>]
+DEBUG 2023-07-24 10:19:28,685 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:19:28,685 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:19:28,687 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975641, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/admin', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 455, 'group_chat_created': False, 'date': 1690183168, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:19:28,696 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:19:28,839 bot 80 140570339575360 {'entities': [{'type': 'bot_command', 'offset': 54, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Секретный уровень\n⚠️ Секретные команды администратора\n/stats - bot stats', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 456, 'group_chat_created': False, 'date': 1690183168, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:19:28,856 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:19:34,547 bot 80 140570331121216 Getting updates: [930975642]
+DEBUG 2023-07-24 10:19:34,548 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae53c0>]
+DEBUG 2023-07-24 10:19:34,548 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:19:34,548 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:19:34,549 dispatcher 80 140570339575360 Processing Update: {'update_id': 930975642, 'message': {'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': '/stats', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 457, 'group_chat_created': False, 'date': 1690183174, 'photo': [], 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}}
+DEBUG 2023-07-24 10:19:34,613 bot 80 140570339575360 Entering: send_message
+DEBUG 2023-07-24 10:19:34,760 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 458, 'group_chat_created': False, 'date': 1690183174, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:19:34,761 bot 80 140570339575360 Exiting: send_message
+DEBUG 2023-07-24 10:20:25,094 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:20:25,095 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:20:25,095 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:20:25,095 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:21:15,180 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:21:15,180 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:21:15,181 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:21:15,182 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:22:05,256 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:22:05,257 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:22:05,257 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:22:05,258 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:22:55,333 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:22:55,333 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:22:55,333 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:22:55,334 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:23:45,409 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:23:45,409 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:23:45,409 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:23:45,410 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:24:35,495 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:24:35,496 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:24:35,496 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:24:35,497 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:25:25,576 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:25:25,577 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:25:25,577 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:25:25,577 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:26:15,661 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:26:15,662 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:26:15,676 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:26:15,676 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:27:05,751 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:27:05,751 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:27:05,751 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:27:05,752 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:27:55,830 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:27:55,831 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:27:55,831 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:27:55,831 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:28:45,909 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:28:45,909 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:28:45,910 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:28:45,910 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:29:35,987 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:29:35,987 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:29:35,988 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:29:35,988 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:30:26,065 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:30:26,066 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:30:26,066 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:30:26,067 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:31:16,145 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:31:16,146 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:31:16,146 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:31:16,147 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:32:06,224 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:32:06,225 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:32:06,227 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:32:06,227 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:32:56,304 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:32:56,306 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:32:56,306 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:32:56,307 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:33:46,381 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:33:46,381 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:33:46,382 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:33:46,382 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:34:36,459 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:34:36,459 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:34:36,460 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:34:36,460 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:35:26,534 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:35:26,534 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:35:26,535 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:35:26,535 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:36:16,613 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:36:16,614 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:36:16,614 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:36:16,614 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:37:06,691 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:37:06,691 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:37:06,691 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:37:06,692 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:37:56,767 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:37:56,768 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:37:56,768 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:37:56,769 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:38:46,846 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:38:46,847 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:38:46,847 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:38:46,847 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:39:36,923 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:39:36,923 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:39:36,923 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:39:36,924 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:40:27,004 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:40:27,005 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:40:27,005 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:40:27,005 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:41:17,080 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:41:17,081 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:41:17,081 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:41:17,081 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:42:07,161 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:42:07,162 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:42:07,162 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:42:07,163 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:42:57,243 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:42:57,243 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:42:57,244 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:42:57,244 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:43:47,322 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:43:47,323 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:43:47,323 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:43:47,323 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:44:37,406 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:44:37,406 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:44:37,406 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:44:37,406 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:45:27,480 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:45:27,480 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:45:27,481 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:45:27,481 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:46:17,565 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:46:17,565 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:46:17,565 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:46:17,566 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:47:07,640 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:47:07,641 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:47:07,641 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:47:07,641 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:47:57,756 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:47:57,756 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:47:57,757 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:47:57,757 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:48:47,866 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:48:47,870 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:48:47,884 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:48:47,884 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:49:37,962 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:49:37,963 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:49:37,963 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:49:37,963 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:50:28,040 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:50:28,041 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:50:28,041 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:50:28,041 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:51:18,125 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:51:18,126 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:51:18,126 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:51:18,126 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:52:08,204 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:52:08,204 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:52:08,204 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:52:08,205 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:52:58,280 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:52:58,281 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:52:58,281 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:52:58,281 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:53:48,356 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:53:48,356 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:53:48,356 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:53:48,357 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:54:38,434 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:54:38,434 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:54:38,434 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:54:38,435 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:55:28,510 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:55:28,511 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:55:28,511 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:55:28,511 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:56:18,624 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:56:18,624 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:56:18,624 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:56:18,625 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:57:08,752 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:57:08,753 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:57:08,753 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:57:08,753 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:57:58,829 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:57:58,829 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:57:58,829 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:57:58,830 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:58:50,143 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 10:58:50,144 bot 80 140570331121216 []
+DEBUG 2023-07-24 10:58:50,144 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:58:50,144 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:59:28,590 bot 80 140570331121216 Getting updates: [930975643]
+DEBUG 2023-07-24 10:59:28,930 bot 80 140570331121216 [<telegram.update.Update object at 0x7fd915ae5840>]
+DEBUG 2023-07-24 10:59:28,980 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 10:59:29,074 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 10:59:29,083 dispatcher 80 140570339575360 Processing Update: {'callback_query': {'message': {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Спасибо за обратную связь.\n Вернуться на главную.', 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 458, 'group_chat_created': False, 'date': 1690183174, 'reply_markup': {'inline_keyboard': [[{'text': 'Вернуться', 'callback_data': 'IN_PLACE_BACK'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}, 'chat_instance': '-1881890470898880469', 'data': 'IN_PLACE_BACK', 'id': '6743485456558197181', 'from': {'first_name': 'Shakirov', 'username': 'D50001', 'last_name': 'Dmitry', 'language_code': 'ru', 'id': 1570090059, 'is_bot': False}}, 'update_id': 930975643}
+DEBUG 2023-07-24 10:59:30,022 bot 80 140570339575360 Entering: edit_message_text
+DEBUG 2023-07-24 10:59:31,121 bot 80 140570339575360 {'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'text': 'Добро пожаловать!', 'edit_date': 1690185571, 'caption_entities': [], 'chat': {'first_name': 'Shakirov', 'last_name': 'Dmitry', 'type': 'private', 'username': 'D50001', 'id': 1570090059}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'new_chat_members': [], 'message_id': 458, 'group_chat_created': False, 'date': 1690183174, 'reply_markup': {'inline_keyboard': [[{'text': 'О нас', 'callback_data': 'ABOUT_US'}], [{'text': 'Товар недели', 'callback_data': 'WEEK_SALES'}, {'text': 'Акции', 'callback_data': 'PROMOTIONS'}], [{'text': '3d проект', 'callback_data': 'PROJECT'}], [{'text': 'Вопрос-ответ', 'callback_data': 'FAQ'}, {'text': 'Местоположение', 'callback_data': 'LOCATION'}], [{'text': 'Контакты', 'callback_data': 'CONTACTS'}]]}, 'photo': [], 'from': {'first_name': 'ImperiaSevastopol_bot', 'username': 'imperiasevastopol_bot', 'id': 6040890370, 'is_bot': True}}
+DEBUG 2023-07-24 10:59:31,122 bot 80 140570339575360 Exiting: edit_message_text
+DEBUG 2023-07-24 11:00:19,184 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 11:00:19,184 bot 80 140570331121216 []
+DEBUG 2023-07-24 11:00:19,185 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 11:00:19,195 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 11:01:09,280 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 11:01:09,281 bot 80 140570331121216 []
+DEBUG 2023-07-24 11:01:09,282 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 11:01:09,282 bot 80 140570331121216 Entering: get_updates
+DEBUG 2023-07-24 11:01:59,359 bot 80 140570331121216 No new updates found.
+DEBUG 2023-07-24 11:01:59,359 bot 80 140570331121216 []
+DEBUG 2023-07-24 11:01:59,359 bot 80 140570331121216 Exiting: get_updates
+DEBUG 2023-07-24 11:01:59,360 bot 80 140570331121216 Entering: get_updates
+INFO 2023-07-24 11:02:03,229 updater 80 140570390499328 Received signal 2 (SIGINT), stopping...
+INFO 2023-07-24 11:02:03,262 updater 80 140570390499328 Received signal 2 (SIGINT), stopping...
+INFO 2023-07-24 11:02:03,274 base 80 140570390499328 Scheduler has been shut down
+DEBUG 2023-07-24 11:02:03,285 base 80 140570348029504 Looking for jobs to run
+DEBUG 2023-07-24 11:02:03,302 base 80 140570348029504 No jobs; waiting until a job is added
+INFO 2023-07-24 11:02:03,307 updater 80 140570390499328 Received signal 2 (SIGINT), stopping...
+DEBUG 2023-07-24 11:02:03,307 updater 80 140570390499328 Stopping Updater and Dispatcher...
+DEBUG 2023-07-24 11:02:03,308 updater 80 140570390499328 Requesting Dispatcher to stop...
+WARNING 2023-07-24 11:02:03,329 updater 80 140570390499328 Exiting immediately!
